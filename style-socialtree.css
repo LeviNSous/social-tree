@@ -1,0 +1,135 @@
+body{
+  background-color: #D4F4DD; 
+}
+
+
+
+.imagem{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    top: 15px;
+  }
+  
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .circle{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  span{
+    width: 213px;
+    height: 213px;
+    border: 2px solid #17BEBB;
+    border-radius:50%;
+  }
+  
+  p{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 15px 0 33px 0;
+    color: #17BEBB;
+  }
+  
+  .buttons{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;  
+
+  }
+  
+  .link1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 326px;
+    height: 49px;
+    border: 2px solid #17BEBB;
+  }
+  
+  .link2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 326px;
+    height: 49px;
+    border: 2px solid #17BEBB;
+  }
+  
+  .link3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 326px;
+    height: 49px;
+    border: 2px solid #17BEBB;
+  }
+  
+  .link{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #17BEBB;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    display: grid;
+   
+
+    transition: ease 0.3s;
+  }
+
+  .link:hover{
+    background-color: #17BEBB;
+    color: #D4F4DD;
+  }
+  
+  .insta{
+    width: 24px;
+    height: 24px;
+    margin: 25px;
+    border-radius: 0;
+  }
+.icons{
+transform: scale(0.9);
+transition: ease 0.3s;
+}
+.icons:hover {
+  transform: scale(1);
+}
+
+.twitchr{
+  width: 24px;
+  height: 24px;
+  margin: 25px;
+  border-radius: 0;  
+}
+
+.linkedin{
+    width: 24px;
+    height: 24px;
+    margin: 25px;
+    border-radius: 0;
+}
+
+.github{
+    width: 24px;
+    height: 24px;
+    margin: 25px;
+    border-radius: 0;
+}
+  
